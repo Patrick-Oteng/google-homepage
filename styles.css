@@ -12,8 +12,9 @@
 
  .hero-image{
   display:block;
-  width:250px;
+  width:300px;
   margin: 30px auto;
+  margin-top:50px;
  }
 
  input{
