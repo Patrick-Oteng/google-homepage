@@ -1,1 +1,111 @@
+ *{
+  margin:0;
+  padding:0;
+ }
  
+ body{
+  font-size:16px;
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing:border-box;
+  position:relative;
+ }
+
+ .hero-image{
+  display:block;
+  width:250px;
+  margin: 30px auto;
+ }
+
+ input{
+  display:block;
+  margin: 20px auto;
+  width:400px;
+  border-radius:25px;
+  padding:15px 30px;
+  border: 0.1px solid #99999998;
+ }
+
+ input:hover{
+  cursor:auto;
+  box-shadow: 0px 0px 13px 2px rgba(117,117,117,0.4);
+ }
+
+ ul li{
+  list-style-type:none;
+ }
+
+ .btn{
+  display:block;
+  margin:0 auto;
+  text-align:center;
+  margin-top:20px;
+ }
+
+ button{
+  border:none;
+  padding: 8px 16px;
+  margin-left:10px;
+  border-radius: 5px;
+  margin-top:15px;
+  cursor:pointer;
+ }
+
+ button:hover{
+  border:0.2px solid #999999;
+  box-shadow:0px 0px 6px 0px rgba(117,117,117,0.4);
+ }
+
+ a{
+  text-decoration:none;
+  color:#61616199;
+ }
+
+footer{
+ background-color: #e6e6e6;
+ position:fixed;
+ bottom:0;
+ width:100%;
+}
+
+
+.g-lang{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ margin-top:30px;
+ font-size:12px;
+ margin-bottom:100px;
+}
+
+.g-lang ul {
+ display:flex;
+ gap:8px;
+ padding-left:10px;
+}
+.g-lang ul a {
+ color:blue;
+}
+.f-cont{
+ font-size:13px;
+ display:flex;
+ justify-content:space-between;
+ padding: 15px;
+}
+
+.about ul, .privacy ul{
+ display:flex;
+ gap: 30px;
+ align-items:center;
+ padding-top:20px;
+}
+
+#my-loc{
+ padding: 15px;
+ color:#43434399;
+}
+ 
+hr{
+ border-color:#999999;
+ opacity:0.2;
+ margin-bottom:-5px;
+}
